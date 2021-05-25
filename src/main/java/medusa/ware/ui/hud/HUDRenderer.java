@@ -1,5 +1,4 @@
 
-
 package medusa.ware.ui.hud;
 
 import java.util.ArrayList;
