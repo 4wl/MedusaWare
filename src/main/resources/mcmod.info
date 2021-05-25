@@ -1,0 +1,16 @@
+[
+{
+  "modid": "MedusaWare",
+  "name": "MedusaWare",
+  "description": "GOD.CC",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["M3dusa"],
+  "credits": "Create by M3dusa.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
