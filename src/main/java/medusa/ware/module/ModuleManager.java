@@ -1,46 +1,15 @@
-
+// 
+// Decompiled by Procyon v0.5.36
+// 
 
 package medusa.ware.module;
 
-import medusa.ware.module.render.Search;
-import medusa.ware.module.player.AutoHotbar;
-import medusa.ware.module.movement.LongJump;
-import medusa.ware.module.combat.STap;
-import medusa.ware.module.combat.WTap;
-import medusa.ware.module.render.StorageESP;
-import medusa.ware.module.player.AutoMine;
-import medusa.ware.module.combat.RodAimbot;
-import medusa.ware.module.render.NameTags;
-import medusa.ware.module.misc.MCF;
-import medusa.ware.module.player.Fall;
-import medusa.ware.module.movement.Eagle;
-import medusa.ware.module.movement.Step;
-import medusa.ware.module.player.ChestStealer;
-import medusa.ware.module.player.AutoMLG;
-import medusa.ware.module.combat.HitBoxes;
-import medusa.ware.module.render.ESP;
-import medusa.ware.module.misc.Timer;
-import medusa.ware.module.movement.Speed;
-import medusa.ware.module.player.AutoArmor;
-import medusa.ware.module.misc.SelfDestruct;
-import medusa.ware.module.render.HUD;
-import medusa.ware.module.movement.Fly;
-import medusa.ware.module.combat.AntiBot;
-import medusa.ware.module.combat.Reach;
-import medusa.ware.module.combat.Killaura;
-import medusa.ware.module.combat.Velocity;
-import medusa.ware.module.combat.AutoClicker;
-import medusa.ware.module.combat.AimAssist;
-import medusa.ware.module.render.ClickGUI;
-import medusa.ware.module.movement.Strafe;
-import medusa.ware.module.movement.Sprint;
-import medusa.ware.module.player.FastPlace;
-import medusa.ware.module.values.ValueOthers;
-import medusa.ware.module.values.ValueMobs;
-import medusa.ware.module.values.ValueAnimals;
-import medusa.ware.module.values.ValueInvisibles;
-import medusa.ware.module.values.ValueTeams;
-import medusa.ware.module.values.ValuePlayers;
+import medusa.ware.module.misc.*;
+import medusa.ware.module.render.*;
+import medusa.ware.module.player.*;
+import medusa.ware.module.movement.*;
+import medusa.ware.module.combat.*;
+import medusa.ware.module.values.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -82,6 +51,7 @@ public class ModuleManager
         this.modules.add(new MCF());
         this.modules.add(new NameTags());
         this.modules.add(new RodAimbot());
+        this.modules.add(new AutoTool());
         this.modules.add(new AutoMine());
         this.modules.add(new StorageESP());
         this.modules.add(new WTap());
