@@ -1,7 +1,3 @@
-// 
-// Decompiled by Procyon v0.5.36
-// 
-
 package medusa.ware.color;
 
 import net.minecraftforge.common.MinecraftForge;
